@@ -30,6 +30,7 @@ Using the two JSON files extracted from the VGG annotator, we mapped the heading
 ### 5. JSON Output
 
 Finally, we converted the dictionary into a JSON format and output the result.
+![Alt text](output.png)
 
 ```{
   "Hypothalamus": "TRH CRH, GHRH Dopamine Somatostatin Vasopressin",
@@ -47,7 +48,7 @@ Finally, we converted the dictionary into a JSON format and output the result.
   "Uterus": "Prolactin Relaxin"
 }```
 
-![Alt text](output.png)
+
 
 ## Steps to Run the Code
 

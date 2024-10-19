@@ -32,11 +32,11 @@ def extract_boxes(json_data):
             boxes.append((x, y, w, h))
     return boxes
 
-json_file = 'image_heading_annotation.json'  # Replace with your JSON filename
+json_file = 'image_heading_annotation.json'  
 with open(json_file) as f:
     data1 = json.load(f)
 
-json_file = 'image_sub_annotation2.json'  # Replace with your JSON filename
+json_file = 'image_sub_annotation2.json'  
 with open(json_file) as f:
     data2 = json.load(f)
 
@@ -97,7 +97,7 @@ def extract_boxes(json_data):
             boxes.append((x, y, w, h))
     return boxes
 
-# Load the JSON data
+
 with open('image_heading_annotation.json') as f:
     data1 = json.load(f)
 with open('image_sub_annotation2.json') as f:

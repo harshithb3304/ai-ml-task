@@ -3,4 +3,4 @@ torch
 easyocr
 torchvision
 opencv-python
-Pillow
+

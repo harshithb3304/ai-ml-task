@@ -32,23 +32,6 @@ Using the two JSON files extracted from the VGG annotator, we mapped the heading
 Finally, we converted the dictionary into a JSON format and output the result.
 ![Alt text](output.png)
 
-```{
-  "Hypothalamus": "TRH CRH, GHRH Dopamine Somatostatin Vasopressin",
-  "Thyroid and Parathyroid": "T3, T4, Calcitonin PTH",
-  "Liver": "IGF THPO",
-  "Adrenal": "Androgens Glucocorticoids Adrenaline Noradrenaline",
-  "Kidney": "Calcitriol, Renin Erythropoietin",
-  "Testes": "Androgens Estradiol, Inhibin",
-  "Pineal gland": "Melatonin",
-  "Pituitary gland": "GH, TSH, ACTH FSH, MSH LH Prolactin, Oxytocin Vasopressin",
-  "Thymus": "Thymopoietin",
-  "Stomach": "Gastrin, Ghrelin Histamine Somatostatin Neuropeptide Y",
-  "Pancreas": "Insulin, Glucagon Somatostatin",
-  "Ovary; Placenta": "Estrogens Progesterone",
-  "Uterus": "Prolactin Relaxin"
-}```
-
-
 
 ## Steps to Run the Code
 
